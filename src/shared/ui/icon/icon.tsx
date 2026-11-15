@@ -1,15 +1,17 @@
-import type { ReactNode } from 'react'
+import type { ReactNode } from "react";
 
 const ICONS: Record<string, ReactNode> = {
-  'chevron-down': <path d="m6 9 6 6 6-6" />,
-  'chevron-up': <path d="m6 15 6-6 6 6" />,
+  "chevron-down": <path d="m6 9 6 6 6-6" />,
+  "chevron-up": <path d="m6 15 6-6 6 6" />,
   close: <path d="M6 6l12 12M18 6 6 18" />,
   burger: <path d="M4 7h16M4 12h16M4 17h16" />,
   plus: <path d="M12 5v14M5 12h14" />,
   minus: <path d="M5 12h14" />,
   check: <path d="m5 12.5 4.5 4.5L19 7.5" />,
   play: <path d="M9 6v12l9-6z" fill="currentColor" />,
-  phone: <path d="M5 4h4l2 5-2.5 1.5a11 11 0 0 0 5 5L15 13l5 2v4a2 2 0 0 1-2 2A16 16 0 0 1 3 6a2 2 0 0 1 2-2z" />,
+  phone: (
+    <path d="M5 4h4l2 5-2.5 1.5a11 11 0 0 0 5 5L15 13l5 2v4a2 2 0 0 1-2 2A16 16 0 0 1 3 6a2 2 0 0 1 2-2z" />
+  ),
   mail: (
     <>
       <rect x="3" y="5" width="18" height="14" rx="2" />
@@ -46,11 +48,11 @@ const ICONS: Record<string, ReactNode> = {
       <path d="m4 8 8.5 6L21 8M1 10h3M1 14h3" />
     </>
   ),
-}
+};
 
 interface IconProps {
-  name: string
-  size?: number
+  name: string;
+  size?: number;
 }
 
 export function Icon({ name, size = 20 }: IconProps) {
@@ -68,5 +70,5 @@ export function Icon({ name, size = 20 }: IconProps) {
     >
       {ICONS[name]}
     </svg>
-  )
+  );
 }

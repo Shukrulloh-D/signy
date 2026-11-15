@@ -48,10 +48,10 @@ export function BlogPostPage() {
           <p>{TEXT}</p>
           <h2>Planning Your Luxury Trip</h2>
           <p>{TEXT}</p>
-          <img src="/images/blog/post-1.jpg" alt="" loading="lazy" />
+          <img src="/images/post-1.png" alt="" loading="lazy" />
           <p>{TEXT}</p>
           <p>{TEXT}</p>
-          <img src="/images/blog/post-2.jpg" alt="" loading="lazy" />
+          <img src="/images/blog/post-2.png" alt="" loading="lazy" />
           <p>{TEXT}</p>
           <p>{TEXT}</p>
         </div>
