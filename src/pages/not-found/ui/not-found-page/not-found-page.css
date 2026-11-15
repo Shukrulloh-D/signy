@@ -1,0 +1,21 @@
+.not-found {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+  padding: 48px 20px 64px;
+  text-align: center;
+  background: linear-gradient(#fff, var(--blue-light));
+}
+
+.not-found-image {
+  width: 100%;
+  max-width: 560px;
+  min-height: 200px;
+}
+
+.not-found-text {
+  max-width: 320px;
+  font-family: var(--font-title);
+  font-size: 16px;
+}

@@ -1,0 +1,9 @@
+.breadcrumbs {
+  padding: 24px 0 12px;
+  font-size: 9px;
+  color: var(--gray);
+}
+
+.breadcrumbs a:hover {
+  color: var(--blue);
+}

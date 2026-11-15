@@ -1,0 +1,17 @@
+.demo-popup-form {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  align-items: center;
+}
+
+.demo-popup-form .button {
+  margin-top: 6px;
+}
+
+.demo-popup-done {
+  display: flex;
+  justify-content: center;
+  padding: 8px 0;
+  color: var(--blue);
+}

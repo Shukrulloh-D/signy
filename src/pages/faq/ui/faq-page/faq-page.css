@@ -1,0 +1,18 @@
+.faq-page {
+  padding-bottom: 48px;
+}
+
+.faq-ask .title {
+  margin-bottom: 8px;
+}
+
+.faq-ask-text {
+  margin-bottom: 20px;
+  font-size: 12px;
+  text-align: center;
+}
+
+.faq-ask .question-form {
+  align-items: center;
+  margin: 0 auto;
+}

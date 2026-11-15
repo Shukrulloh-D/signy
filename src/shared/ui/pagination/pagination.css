@@ -1,0 +1,17 @@
+.pagination {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.pagination-item {
+  font-size: 10px;
+  font-weight: 600;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+}
+
+.pagination-item:hover,
+.pagination-active {
+  color: var(--blue);
+}

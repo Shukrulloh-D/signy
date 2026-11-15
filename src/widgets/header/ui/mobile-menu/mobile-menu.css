@@ -1,0 +1,66 @@
+.mobile-menu {
+  position: fixed;
+  inset: 0;
+  z-index: 90;
+  background: rgba(6, 18, 36, 0.6);
+}
+
+.mobile-menu-panel {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  width: min(420px, 100%);
+  padding: 20px 24px;
+  overflow-y: auto;
+  background: #fff;
+}
+
+.mobile-menu-top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-bottom: 16px;
+  margin-bottom: 8px;
+  border-bottom: 1px solid var(--line);
+}
+
+.mobile-menu-close {
+  color: var(--blue);
+}
+
+.mobile-menu-group summary,
+.mobile-menu-link {
+  display: block;
+  padding: 14px 0;
+  font-size: 10px;
+  font-weight: 600;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+.mobile-menu-group ul {
+  padding-bottom: 8px;
+}
+
+.mobile-menu-group li a {
+  display: block;
+  padding: 10px 12px;
+  font-size: 10px;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+}
+
+.mobile-menu-group[open] ul {
+  background: var(--blue-light);
+}
+
+.mobile-menu-buttons {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  padding-top: 20px;
+  margin-top: 12px;
+  border-top: 1px solid var(--line);
+}

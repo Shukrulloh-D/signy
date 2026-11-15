@@ -1,0 +1,40 @@
+.video-page-subtitle {
+  font-family: var(--font-title);
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.video-page-date {
+  margin-bottom: 12px;
+  font-size: 9px;
+  color: var(--gray);
+}
+
+.video-page-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 24px;
+  margin: 24px 0 40px;
+}
+
+.video-page-more {
+  margin-bottom: 20px;
+  font-family: var(--font-title);
+  font-size: 20px;
+  font-weight: 400;
+  text-align: center;
+}
+
+.video-page-articles {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 24px;
+  padding-bottom: 48px;
+}
+
+@media (max-width: 768px) {
+  .video-page-grid,
+  .video-page-articles {
+    grid-template-columns: 1fr;
+  }
+}

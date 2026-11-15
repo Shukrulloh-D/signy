@@ -1,0 +1,30 @@
+.accordion-item {
+  padding: 8px 0;
+}
+
+.accordion-question {
+  display: flex;
+  gap: 12px;
+  align-items: flex-start;
+  width: 100%;
+  text-align: left;
+}
+
+.accordion-icon {
+  flex: none;
+  margin-top: 3px;
+  color: var(--blue);
+}
+
+.accordion-text {
+  font-size: 13px;
+}
+
+.accordion-text-open {
+  font-weight: 600;
+}
+
+.accordion-answer {
+  padding: 4px 0 4px 26px;
+  font-size: 13px;
+}

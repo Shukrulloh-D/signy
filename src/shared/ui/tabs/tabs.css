@@ -1,0 +1,23 @@
+.tabs {
+  display: flex;
+  gap: 28px;
+  overflow-x: auto;
+}
+
+.tab {
+  padding: 4px 0;
+  font-size: 10px;
+  font-weight: 600;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  border-bottom: 1px solid transparent;
+}
+
+.tab:hover {
+  color: var(--blue);
+}
+
+.tab-active {
+  color: var(--blue);
+  border-color: var(--blue);
+}

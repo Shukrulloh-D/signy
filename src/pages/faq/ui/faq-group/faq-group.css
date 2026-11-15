@@ -1,0 +1,20 @@
+.faq-group {
+  margin-bottom: 20px;
+}
+
+.faq-group-head {
+  display: flex;
+  gap: 6px;
+  align-items: center;
+  margin-bottom: 8px;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.faq-group-head svg {
+  color: var(--blue);
+}
+
+.faq-group-count {
+  font-size: 11px;
+}

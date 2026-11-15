@@ -1,0 +1,29 @@
+.stats {
+  padding: 40px 0;
+  text-align: center;
+  background: var(--mint);
+}
+
+.stats-number {
+  font-family: var(--font-title);
+  font-size: 40px;
+  line-height: 1.2;
+}
+
+.stats-caption {
+  margin-bottom: 8px;
+  font-family: var(--font-title);
+  font-size: 22px;
+}
+
+.stats-text {
+  max-width: 440px;
+  margin: 0 auto;
+  font-size: 11px;
+}
+
+@media (max-width: 480px) {
+  .stats-number {
+    font-size: 30px;
+  }
+}

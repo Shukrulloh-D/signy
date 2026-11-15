@@ -1,0 +1,40 @@
+.slider-slides {
+  display: grid;
+}
+
+.slider-slide {
+  grid-area: 1 / 1;
+  visibility: hidden;
+  opacity: 0;
+  transition: opacity 0.5s, visibility 0.5s;
+}
+
+.slider-slide-active {
+  visibility: visible;
+  opacity: 1;
+}
+
+.slider-dots {
+  display: flex;
+  gap: 4px;
+  justify-content: center;
+  margin-top: 16px;
+}
+
+.slider-dot {
+  position: relative;
+  width: 20px;
+  height: 20px;
+}
+
+.slider-dot::before {
+  content: '';
+  position: absolute;
+  inset: 6px;
+  border: 1px solid var(--blue);
+  border-radius: 50%;
+}
+
+.slider-dot-active::before {
+  background: var(--blue);
+}

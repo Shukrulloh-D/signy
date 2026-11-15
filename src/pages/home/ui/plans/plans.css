@@ -1,0 +1,53 @@
+.plans {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 16px;
+}
+
+.plan {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  align-items: flex-start;
+  padding: 20px 18px;
+  background: var(--blue-light);
+  border-radius: 2px;
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.plan:hover {
+  box-shadow: 0 8px 24px rgba(16, 100, 229, 0.15);
+  transform: translateY(-3px);
+}
+
+.plan-name {
+  font-size: 13px;
+  font-weight: 500;
+}
+
+.plan-documents {
+  flex: 1;
+  font-size: 10px;
+}
+
+.plan-price b {
+  font-family: var(--font-title);
+  font-size: 28px;
+  font-weight: 400;
+}
+
+.plan-price span {
+  font-size: 10px;
+}
+
+@media (max-width: 1000px) {
+  .plans {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 480px) {
+  .plans {
+    grid-template-columns: 1fr;
+  }
+}

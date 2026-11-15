@@ -1,0 +1,44 @@
+.header {
+  position: relative;
+  z-index: 50;
+  background: #fff;
+}
+
+.header-inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 80px;
+}
+
+.header-nav {
+  display: flex;
+  gap: 28px;
+  align-items: center;
+}
+
+.header-link {
+  font-size: 10px;
+  font-weight: 600;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+}
+
+.header-link:hover {
+  color: var(--blue);
+}
+
+.header-burger {
+  display: none;
+  color: var(--blue);
+}
+
+@media (max-width: 1000px) {
+  .header-nav {
+    display: none;
+  }
+
+  .header-burger {
+    display: block;
+  }
+}

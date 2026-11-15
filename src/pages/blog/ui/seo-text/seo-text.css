@@ -1,0 +1,35 @@
+.seo-text {
+  padding-top: 48px;
+  padding-bottom: 48px;
+  font-size: 12px;
+}
+
+.seo-text p {
+  margin-bottom: 12px;
+}
+
+.seo-text-title {
+  margin-bottom: 12px;
+  font-family: var(--font-title);
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.seo-text-subtitle {
+  margin-bottom: 8px;
+  font-family: var(--font-title);
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.seo-text-toggle {
+  display: flex;
+  gap: 4px;
+  align-items: center;
+  margin: 12px auto 0;
+  font-size: 10px;
+  font-weight: 600;
+  letter-spacing: 0.18em;
+  color: var(--blue);
+  text-transform: uppercase;
+}
